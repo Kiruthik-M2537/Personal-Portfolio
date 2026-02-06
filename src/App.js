@@ -144,7 +144,7 @@ const Portfolio = () => {
                 <div className="flex justify-between items-start mb-4">
                   <h3 className="text-xl font-bold text-white">HOPE Dashboard</h3>
                   {/* --- REPLACE WITH YOUR ACTUAL GITHUB LINK BELOW --- */}
-                  <a href="https://github.com/Kiruthik-M2537/YOUR-HOPE-REPO-LINK" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white"><GithubIcon /></a>
+                  <a href="https://github.com/Kiruthik-M2537/HOPE-Interactive-educational-dashboard" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white"><GithubIcon /></a>
                 </div>
                 <p className="text-slate-400 text-sm mb-6 leading-relaxed">
                   An interactive educational dashboard allowing real-time data visualization. Built to simplify complex student metrics into actionable insights.
@@ -169,7 +169,7 @@ const Portfolio = () => {
                 <div className="flex justify-between items-start mb-4">
                   <h3 className="text-xl font-bold text-white">Memo Vault</h3>
                   {/* --- REPLACE WITH YOUR ACTUAL GITHUB LINK BELOW --- */}
-                  <a href="https://github.com/Kiruthik-M2537/YOUR-MEMO-VAULT-LINK" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white"><GithubIcon /></a>
+                  <a href="https://github.com/Kiruthik-M2537/MemoVault" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white"><GithubIcon /></a>
                 </div>
                 <p className="text-slate-400 text-sm mb-6 leading-relaxed">
                   A secure digital notebook application with data persistence. Focuses on user privacy and organized data retrieval for quick access to notes.
