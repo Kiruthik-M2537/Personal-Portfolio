@@ -185,22 +185,23 @@ const Portfolio = () => {
             </div>
 
             {/* Project 3: BlueGuard (GitHub) */}
-            <div className="group relative bg-[#111] rounded-2xl border border-white/10 hover:border-blue-500/50 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(59,130,246,0.15)]">
+           {/* Project 3: Matsyan DeepSeekers */}
+            <div className="group relative bg-[#111] rounded-2xl border border-white/10 hover:border-cyan-500/50 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(6,182,212,0.15)]">
               <div className="h-48 bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center relative overflow-hidden">
-                 <div className="absolute inset-0 bg-blue-500/10 group-hover:bg-blue-500/0 transition-colors"></div>
-                 <span className="text-slate-600 font-mono text-sm">Preview: BlueGuard AI</span>
+                 <div className="absolute inset-0 bg-cyan-500/10 group-hover:bg-cyan-500/0 transition-colors"></div>
+                 <span className="text-slate-600 font-mono text-sm">Preview: DeepSeekers</span>
               </div>
               <div className="p-8">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-bold text-white">BlueGuard AI</h3>
-                  <a href="https://github.com/Kiruthik-M2537" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white"><GithubIcon /></a>
+                  <h3 className="text-xl font-bold text-white">Matsyan DeepSeekers</h3>
+                  <a href="https://github.com/Kiruthik-M2537/matsyan-DeepSeekers" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white"><GithubIcon /></a>
                 </div>
                 <p className="text-slate-400 text-sm mb-6 leading-relaxed">
-                  Maritime surveillance system using AI to detect illegal fishing. Analyzes geospatial data to alert authorities of boundary violations.
+                  Advanced marine conservation tool powered by AI. Detects and classifies aquatic life to support ecosystem monitoring and research.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  {['Python', 'OpenCV', 'AI/ML'].map(tag => (
-                    <span key={tag} className="px-3 py-1 bg-white/5 text-blue-300 text-xs rounded-full border border-white/10">
+                  {['CSS', 'AI/ML', 'Open Source'].map(tag => (
+                    <span key={tag} className="px-3 py-1 bg-white/5 text-cyan-300 text-xs rounded-full border border-white/10">
                       {tag}
                     </span>
                   ))}
